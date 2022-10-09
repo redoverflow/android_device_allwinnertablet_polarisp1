@@ -1,3 +1,25 @@
 #
 # system.prop for polaris_p1
 #
+
+# dalvik vm stuff
+dalvik.vm.heapstartsize=5m
+dalvik.vm.heapgrowthlimit=48m
+dalvik.vm.heapsize=128m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=2m
+dalvik.vm.dexopt-flags=m=y
+dalvik.vm.stack-trace-file=/data/anr/traces.txt
+
+# lcd density
+ro.sf.lcd_density=160
+
+# usb params
+persist.sys.usb.config=mass_storage,adb
+
+# opengl param
+ro.opengles.version=131072
+
+# other params (they affect performance i think)
+debug.hwui.render_dirty_regions=false
