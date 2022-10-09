@@ -1,0 +1,141 @@
+
+# Audio
+
+# Camera
+
+# DRM
+
+# Display-Hardware
+
+# GPS
+
+# GPS-Hardware
+
+# Graphics
+
+# Listen
+
+# Media
+
+# Media-Hardware
+
+# Perf
+
+# Postprocessing
+
+# QMI
+
+# Radio
+
+# Sensors
+
+# Time
+
+# Vibrator
+vendor/modules/sunxi-vibrator.ko
+
+# WiFi
+
+# Misc
+vendor/modules/8188eu.ko
+vendor/modules/8189es.ko
+vendor/modules/8723au.ko
+vendor/modules/8723bs.ko
+vendor/modules/actuator.ko
+vendor/modules/ad5820_act.ko
+vendor/modules/afa750.ko
+vendor/modules/asix.ko
+vendor/modules/aw5306_ts.ko
+vendor/modules/bcmdhd.ko
+vendor/modules/bf3920.ko
+vendor/modules/bf3a03.ko
+vendor/modules/bma250.ko
+vendor/modules/cam_detect.ko
+vendor/modules/cci.ko
+vendor/modules/db8v63l.ko
+vendor/modules/disp.ko
+vendor/modules/dmard09.ko
+vendor/modules/dmard10.ko
+vendor/modules/dw9714_act.ko
+vendor/modules/esp8089.ko
+vendor/modules/esp_init_data.bin
+vendor/modules/ft5x_ts.ko
+vendor/modules/fxos8700.ko
+vendor/modules/gc0307.ko
+vendor/modules/gc0308.ko
+vendor/modules/gc0309.ko
+vendor/modules/gc0311.ko
+vendor/modules/gc0328.ko
+vendor/modules/gc0329.ko
+vendor/modules/gc2035.ko
+vendor/modules/gslX680.ko
+vendor/modules/gslX680new.ko
+vendor/modules/gt2005.ko
+vendor/modules/gt818_ts.ko
+vendor/modules/gt82x.ko
+vendor/modules/gt9xxf_ts.ko
+vendor/modules/gt9xx_ts.ko
+vendor/modules/hi253.ko
+vendor/modules/hi704.ko
+vendor/modules/hid-logitech-dj.ko
+vendor/modules/hm2058.ko
+vendor/modules/hm5065.ko
+vendor/modules/icn83xx_ts.ko
+vendor/modules/init_data.conf
+vendor/modules/jsa1212.ko
+vendor/modules/kxtik.ko
+vendor/modules/l3gd20_gyr.ko
+vendor/modules/lcd.ko
+vendor/modules/leds-sunxi.ko
+vendor/modules/lis3de_acc.ko
+vendor/modules/lis3dh_acc.ko
+vendor/modules/lsm303d.ko
+vendor/modules/ltr_501als.ko
+vendor/modules/mali.ko
+vendor/modules/mc32x0.ko
+vendor/modules/mcs7830.ko
+vendor/modules/mma7660.ko
+vendor/modules/mma8452.ko
+vendor/modules/mma865x.ko
+vendor/modules/Module.symvers
+vendor/modules/mxc622x.ko
+vendor/modules/nand.ko
+vendor/modules/ov2640.ko
+vendor/modules/ov5640.ko
+vendor/modules/ov5647.ko
+vendor/modules/ov5650.ko
+vendor/modules/ov7736.ko
+vendor/modules/ov8825_act.ko
+vendor/modules/qf9700.ko
+vendor/modules/rtk_btusb.ko
+vendor/modules/rtl8150.ko
+vendor/modules/s5k4e1.ko
+vendor/modules/s5k4e1_mipi.ko
+vendor/modules/s5k4ec.ko
+vendor/modules/s5k4ec_mipi.ko
+vendor/modules/scsi_wait_scan.ko
+vendor/modules/siv120d.ko
+vendor/modules/siv121d.ko
+vendor/modules/sp0718.ko
+vendor/modules/sp0838.ko
+vendor/modules/sp0a19.ko
+vendor/modules/sp2518.ko
+vendor/modules/sp2519.ko
+vendor/modules/stk3x1x.ko
+vendor/modules/stk831x.ko
+vendor/modules/sunxi-keyboard.ko
+vendor/modules/sw-device.ko
+vendor/modules/t8et5.ko
+vendor/modules/tu_ts.ko
+vendor/modules/vfe_os.ko
+vendor/modules/vfe_subdev.ko
+vendor/modules/vfe_v4l2.ko
+vendor/modules/videobuf-core.ko
+vendor/modules/videobuf-dma-contig.ko
+vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/left_eye-y0-yi45-p0-pi45-r0-ri20.lg_32.bin
+vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/nose_base-y0-yi45-p0-pi45-r0-ri20.lg_32.bin
+vendor/pittpatt/models/detection/multi_pose_face_landmark_detectors.7/right_eye-y0-yi45-p0-pi45-r0-ri20.lg_32-2.bin
+vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-r0-ri30.4a-v24.bin
+vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rn30-ri30.5-v24.bin
+vendor/pittpatt/models/detection/yaw_roll_face_detectors.6/head-y0-yi45-p0-pi45-rp30-ri30.5-v24.bin
+vendor/pittpatt/models/recognition/face.face.y0-y0-22-b-N.bin
