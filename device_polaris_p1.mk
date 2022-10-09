@@ -11,7 +11,7 @@ $(call inherit-product, vendor/cm/config/common_mini_tablet_wifionly.mk)
 # All languages
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-LOCAL_PATH := device/aliexpress2/polaris_p1
+LOCAL_PATH := device/allwinnertablet/polaris_p1
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -216,9 +216,9 @@ PRODUCT_AAPT_PREF_CONFIG := mdpi
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_DEVICE := polaris_p1
 PRODUCT_NAME := cm_polaris_p1
-PRODUCT_BRAND := aliexpress2
+PRODUCT_BRAND := allwinnertablet
 PRODUCT_MODEL := polaris_p1
-PRODUCT_MANUFACTURER := aliexpress2
+PRODUCT_MANUFACTURER := allwinnertablet
 PRODUCT_RELEASE_NAME := polaris_p1
 
 BUILD_NUMBER := $(shell date +%Y%m%d)
