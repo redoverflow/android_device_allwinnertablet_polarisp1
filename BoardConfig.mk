@@ -13,9 +13,9 @@ TARGET_BOARD_PLATFORM := polaris
 BOARD_HAS_NO_SELECT_BUTTON := true
 
 # Build options
-TARGET_NO_BOOTLOADER := true
-TARGET_NO_RECOVERY := true
-TARGET_NO_KERNEL := true
+TARGET_NO_BOOTLOADER := false
+TARGET_NO_RECOVERY := false
+TARGET_NO_KERNEL := false
 
 TARGET_BOOTLOADER_BOARD_NAME := polaris_p1
 TARGET_PROVIDES_INIT_RC := true
@@ -37,10 +37,13 @@ USE_OPENGL_RENDERER := true
 BOARD_WIDEVINE_OEMCRYPTO_LEVEL := 3
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyS0,115200 rw init=/init loglevel=4 ion_reserve=80M
+BOARD_KERNEL_CMDLINE := console=ttyS0,115200 rw init=/init loglevel=4
 BOARD_KERNEL_BASE := 0x40000000
 BOARD_KERNEL_PAGESIZE := 2048
-TARGET_PREBUILT_KERNEL := device/allwinnertablet/polaris_p1/kernel
+#TARGET_PREBUILT_KERNEL := device/allwinnertablet/polaris_p1/kernel
+# nah we are gonna build one ourselves
+TARGET_KERNEL_SOURCE := kernel/allwinnertablet/polaris_p1
+TARGET_KERNEL_CONFIG := polarisp1_defconfig
 
 # Memory
 BOARD_FLASH_BLOCK_SIZE := 4096
